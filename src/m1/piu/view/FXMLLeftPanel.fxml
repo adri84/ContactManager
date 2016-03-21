@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m1.piu.view.FXMLLeftPanelController">
+   <bottom>
+      <ListView prefHeight="374.0" prefWidth="207.0" />
+   </bottom>
+   <top>
+      <Label text="Address books" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

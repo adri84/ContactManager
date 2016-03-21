@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <BorderPane prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <MenuBar prefHeight="24.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="New" />
+                        <MenuItem mnemonicParsing="false" text="Open" />
+                        <MenuItem mnemonicParsing="false" text="Save" />
+                        <MenuItem mnemonicParsing="false" text="Save As" />
+                        <MenuItem mnemonicParsing="false" text="Exit" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </top>
+         <bottom>
+            <BorderPane BorderPane.alignment="CENTER">
+               <left>
+                  <ToolBar BorderPane.alignment="CENTER">
+                    <items>
+                      <Button mnemonicParsing="false" text="New Contact" />
+                        <Button mnemonicParsing="false" text="Edit Contact" />
+                        <Button mnemonicParsing="false" text="Remove Contact" />
+                    </items>
+                  </ToolBar>
+               </left>
+               <center>
+                  <ToolBar BorderPane.alignment="CENTER">
+                     <items>
+                        <TextField prefHeight="25.0" prefWidth="223.0" />
+                     </items>
+                  </ToolBar>
+               </center>
+            </BorderPane>
+         </bottom>
+      </BorderPane>
+   </top>
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <Label text="Selected Contact:" />
+            <Label text="Label" />
+         </items>
+      </ToolBar>
+   </bottom>
+</BorderPane>
