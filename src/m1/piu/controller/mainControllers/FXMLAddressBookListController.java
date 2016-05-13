@@ -16,8 +16,6 @@ import java.util.ResourceBundle;
 
 public class FXMLAddressBookListController implements Initializable {
 
-
-
     public ListView addressBookList;
 
 
