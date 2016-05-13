@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<TitledPane animated="false" collapsible="false" text="Identity :" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <VBox>
+         <children>
+            <HBox>
+               <children>
+                  <Label text="Name: " />
+                  <Label text="Mr. Toto Toto" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Age: " />
+                  <Label text="42" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Email : " />
+                  <Label text="toto.toto@toto.fr" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</TitledPane>
