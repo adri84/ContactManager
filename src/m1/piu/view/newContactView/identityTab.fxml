@@ -39,8 +39,8 @@
             <TextField fx:id="lastName" />
             <HBox alignment="CENTER_LEFT">
                <children>
-                  <TextField prefWidth="40.0" promptText="30" />
-                  <Slider prefWidth="230.0" showTickLabels="true" snapToTicks="true">
+                  <TextField fx:id="ageField" prefWidth="40.0" promptText="30" />
+                  <Slider fx:id="ageSelector" prefWidth="230.0" showTickLabels="true" snapToTicks="true">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin>
