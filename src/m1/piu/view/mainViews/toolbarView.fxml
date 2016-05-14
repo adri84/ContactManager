@@ -8,7 +8,7 @@
 
 <ToolBar fx:id="mainToolbar" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1">
    <items>
-      <Button mnemonicParsing="false" text="New Contact" />
+      <Button mnemonicParsing="false" onAction="#addContact" text="New Contact" />
       <Button mnemonicParsing="false" text="Edit Contact" />
       <Button mnemonicParsing="false" text="Remove Contact" />
       <Separator orientation="VERTICAL">
